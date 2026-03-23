@@ -1,0 +1,147 @@
+/* p{
+   background-color : rgb(79, 188, 255);
+	 color : blue;
+     width: 800px;
+}
+
+h1{
+    position: fixed ;
+   color : rgb(255, 40, 201);
+   left : 500px;
+	 font-size: 100px;
+}
+
+h2{
+    position : relative ;
+    left : 200px ;
+}
+
+.titreViolet{
+    color: rgb(106, 34, 129);
+}
+
+img{
+    width : 100vw;
+    height : 100vh;
+} */
+body {
+  width: 100vw;
+  display: grid;
+  grid-template-columns: repeat(20, 120px); /*nbr + taille collones */
+  gap: 0px; /*gouttières */
+  grid-auto-rows: 200px; /*hauteurs des lignes */
+}
+
+main{
+    display: none;
+}
+
+@font-face {
+  font-family: "typo"; /*choix du mot clef */
+  src: url("../FT88-Serif.woff2");  /*attention il faut bien ajouter '../' si besoin */
+}
+
+@font-face {
+  font-family: "typogothique"; /*choix du mot clef */
+  src: url("../FT88-Gothique.woff2");  /*attention il faut bien ajouter '../' si besoin */
+}
+
+@font-face {
+  font-family: "typoschool"; /*choix du mot clef */
+  src: url("../FT88-School.woff2");  /*attention il faut bien ajouter '../' si besoin */
+}
+
+@font-face {
+  font-family: "fungal100"; /*choix du mot clef */
+  src: url("../Fungal-Grow100Thickness1000.woff2");  /*attention il faut bien ajouter '../' si besoin */
+}
+
+@font-face {
+  font-family: "fungal200"; /*choix du mot clef */
+  src: url("../Fungal-Grow200Thickness1000.woff2");  /*attention il faut bien ajouter '../' si besoin */
+}
+
+@font-face {
+  font-family: "tiny120"; /*choix du mot clef */
+  src: url("../TINY5x3-120.woff2");  /*attention il faut bien ajouter '../' si besoin */
+}
+
+@font-face {
+  font-family: "tiny80"; /*choix du mot clef */
+  src: url("../TINY5x3-80.woff2");  /*attention il faut bien ajouter '../' si besoin */
+}
+
+
+
+.b{
+    /* background-color: rgb(228, 129, 132); */
+}
+.r{
+    background-color: rgb(201, 0, 158);
+    border-radius: 100px;
+}
+
+.v{
+    background-color: rgb(255, 193, 244);
+    border-radius: 0px;
+    text-align : right
+
+}
+
+
+
+.petit{
+	font-family : "typo";
+    margin-top: 50px;
+    line-height: 20px;
+}
+
+.moyen{
+      line-height: 10px;
+}
+
+.moyen{
+	font-family : "typoschool";
+    font-size : 20px;
+    color : rgb(255, 130, 238)
+
+}
+
+
+.grand{
+    color :rgb(255, 255, 255)
+}
+
+.grand{
+    filter : blur(1px);
+    font-size: 15px;
+    font-family : "typogothique";
+    background-color : rgb(255, 255, 255)
+}
+
+header {
+    position: sticky;
+  top: 0;
+  width: 100vw;
+  height: 125px;
+   text-decoration: none;
+  font-family : "tiny80";
+  color: white;
+    font-size: 90px;
+  background-image: linear-gradient(rgb(255, 129, 217), rgb(255, 255, 255)) ;
+  padding: 0px;
+  z-index: 10;
+
+}
+
+body{
+  background-color: rgb(0, 0, 0);
+}
+
+/* .grand{
+    left: 300px ;
+    font-size : 20px ;
+} */
+
+
+

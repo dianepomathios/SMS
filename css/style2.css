@@ -1,0 +1,185 @@
+@font-face {
+  font-family: "typo"; /*choix du mot clef */
+  src: url("../FT88-Serif.woff2");  /*attention il faut bien ajouter '../' si besoin */
+}
+
+
+@font-face {
+  font-family: "fungal100"; /*choix du mot clef */
+  src: url("../Fungal-Grow100Thickness1000.woff2");  /*attention il faut bien ajouter '../' si besoin */
+}
+
+@font-face {
+  font-family: "fungal200"; /*choix du mot clef */
+  src: url("../Fungal-Grow200Thickness1000.woff2");  /*attention il faut bien ajouter '../' si besoin */
+}
+
+@font-face {
+  font-family: "tiny120"; /*choix du mot clef */
+  src: url("../TINY5x3-120.woff2");  /*attention il faut bien ajouter '../' si besoin */
+}
+
+@font-face {
+  font-family: "tiny80"; /*choix du mot clef */
+  src: url("../TINY5x3-80.woff2");  /*attention il faut bien ajouter '../' si besoin */
+}
+
+@font-face {
+  font-family: "typoschool"; /*choix du mot clef */
+  src: url("../FT88-School.woff2");  /*attention il faut bien ajouter '../' si besoin */
+}
+
+
+body{
+  background-color: rgb(255, 255, 255);
+}
+
+.v:hover{
+    size: 1000px;
+    font-family: "typo";
+    animation-name: color;
+
+
+  animation-duration: 0.5 s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+
+}
+
+.grand:hover{
+  	cursor : url(https://www.rw-designer.com/cursor-view/12352.png), pointer;
+    filter: blur(0px);
+    transition-duration: 2s;
+    font-size: 7.2rem;
+
+    
+}
+
+.grand{
+    filter: blur(5px);
+      
+}
+
+p {
+    height: 5svw;
+    width: width;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: typo;
+    /*position: absolute; */
+    top: 20px;
+    color: pink;
+    filter :drop-shadow(0px 5px 10px rgb(100, 27, 100));
+    
+
+    animation-name: couleur;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+    animation-direction: alternate;
+
+}
+
+@keyframes couleur {
+    from{
+        background-color: pink;
+        
+    }
+    to{
+        background-color: rgb(34, 49, 255);
+
+    }
+}
+
+@keyframes tremble {
+  0%   { transform: translate(0, 0) rotate(0deg); }
+  10%  { transform: translate(-1px, 1px) rotate(-1deg); }
+  20%  { transform: translate(-2px, -1px) rotate(1deg); }
+  30%  { transform: translate(1px, 2px) rotate(0deg); }
+  40%  { transform: translate(1px, -1px) rotate(1deg); }
+  50%  { transform: translate(-1px, 1px) rotate(-1deg); }
+  60%  { transform: translate(-2px, 0px) rotate(0deg); }
+  70%  { transform: translate(1px, 1px) rotate(-1deg); }
+  80%  { transform: translate(-1px, -1px) rotate(1deg); }
+  90%  { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(0, 0) rotate(-1deg); }
+}
+
+
+header {
+  position: sticky;
+  top: 0;
+  width: 100vw;
+  height: 125px;
+   text-decoration: none;
+  font-family : "tiny80";
+  color: white;
+    font-size: 90px;
+  background-image: linear-gradient(rgb(70, 73, 255), rgb(255, 255, 255)) ;
+  padding: 0px;
+  z-index: 10;
+}
+
+/* 
+.v{
+    transform: rotate(10deg);
+} */
+
+.coucou{
+   color: rgb(255, 255, 255);
+      font-family: typoschool;
+      font-size: 70px;
+
+         animation-name: tremble;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    animation-direction: alternate;
+  }
+    
+
+    .bisous{
+      color: rgb(255, 255, 255);
+      font-family: typoschool;
+      font-size: 70px;
+
+        animation-name: tremble;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    animation-direction: alternate;
+    }
+
+     .sourire{
+     color: rgb(255, 255, 255);
+      font-family: typoschool;
+      font-size: 70px;
+
+         animation-name: tremble;
+    animation-iteration-count: infinite;
+    animation-duration: 0.7s;
+    animation-direction: alternate;
+    }
+
+    
+     .sourire2{
+     color: rgb(255, 255, 255);
+      font-family: typoschool;
+      font-size: 70px;
+
+         animation-name: tremble;
+    animation-iteration-count: infinite;
+    animation-duration: 0.5s;
+    animation-direction: alternate;
+    }
+
+    
+     .coeur{
+     color: rgb(255, 255, 255);
+      font-family: typoschool;
+      font-size: 70px;
+
+         animation-name: tremble;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    }
